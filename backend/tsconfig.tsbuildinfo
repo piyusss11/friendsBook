@@ -1,1 +1,1 @@
-{"root":["./src/index.ts","./src/config/dbconnection.ts"],"version":"5.7.2"}
+{"root":["./src/index.ts","./src/config/dbconnection.ts","./src/middlewares/auth.ts","./src/models/user.ts","./src/routes/auth.ts","./src/types/express.d.ts","./src/utils/zod.ts"],"version":"5.7.2"}
