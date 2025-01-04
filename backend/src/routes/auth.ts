@@ -13,7 +13,6 @@ authRouter.post("/register", async (req: Request, res: Response) => {
     //   return
     // }
     const { username, email, password } = validatedData;
-    console.log("done validation");
     const alreadyUser = await User.findOne({ $or: [{ username }, { email }] });
     if (alreadyUser) {
       res.status(400).json({ message: "User already exists" });
